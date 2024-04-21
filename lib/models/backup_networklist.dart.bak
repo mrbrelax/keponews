@@ -1,0 +1,52 @@
+// final NetworkService _networkService = NetworkService();
+  // late List<dynamic> newsList = [];
+  // late bool isLoadingOpen = true;
+
+  // @override
+  // void initState() {
+  //   super.initState();
+  // }
+
+  // Future<void> fetchNews() async {
+  //   setState(() {
+  //     isLoadingOpen = true;
+  //   });
+
+  //   try {
+  //     final List<dynamic> news = await Future.wait([
+  //       _networkService.fetchData('terkini'),
+  //       _networkService.fetchData('top-news'),
+  //       _networkService.fetchData('politik'),
+  //       _networkService.fetchData('hukum'),
+  //       _networkService.fetchData('ekonomi'),
+  //       _networkService.fetchData('metro'),
+  //       _networkService.fetchData('sepakbola'),
+  //       _networkService.fetchData('olahraga'),
+  //       _networkService.fetchData('humaniora'),
+  //       _networkService.fetchData('lifestyle'),
+  //       _networkService.fetchData('hiburan'),
+  //       _networkService.fetchData('dunia'),
+  //       _networkService.fetchData('infografik'),
+  //       _networkService.fetchData('tekno'),
+  //       _networkService.fetchData('otomotif'),
+  //       _networkService.fetchData('warta-bumi'),
+  //       _networkService.fetchData('rilis-pers'),
+  //     ]);
+  //     setState(() {
+  //       newsList = news;
+  //       isLoadingOpen = false;
+  //     });
+  //   } catch (e) {
+  //     // ignore: avoid_print
+  //     print('Error: $e');
+  //     setState(() {
+  //       isLoadingOpen = false;
+  //     });
+  //   }
+  // }
+
+  // @override
+  // void initState() {
+  //   super.initState();
+  //   fetchNews();
+  // }
