@@ -17,6 +17,7 @@ class _SplashScreenState extends State<SplashScreen> {
     Timer(const Duration(seconds: 10), () {
       Future.delayed(const Duration(seconds: 5)).then(
         (value) => Navigator.pushNamedAndRemoveUntil(
+            // ignore: use_build_context_synchronously
             context, AppRoutes.homePage, (route) => false),
       );
     });
